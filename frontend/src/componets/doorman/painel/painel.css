@@ -1,0 +1,264 @@
+div#veichles {
+    border: none;
+    width: 400px;
+    height: 100px;
+    margin-left: 920px;
+    margin-top: -30px;
+}
+
+div#veichles form{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+div#veichles form input{
+    width: 150px;
+    height: 40px;
+    background: rgb(248, 248, 248);
+    border: 3px solid #eee;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    color: rgb(99, 99, 99);
+    font-size: 15px;
+}
+
+div#veichles form input::placeholder{
+    font-size: 15px;
+    color: #999;
+}
+
+div#veichles form button{
+    width: auto;
+    height: 40px;
+    background: rgb(34, 88, 168);
+    border: 3px solid #eee;
+    border-radius: 8px;
+    padding: 6px;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+div#veichles form button:hover{
+    cursor: pointer;
+    background: rgb(11, 11, 73);
+}
+
+div#veichles h1 {
+    font-size: 14px;
+    margin-left: 35px;
+    margin-top: 3px;
+    color: rgb(219, 60, 60);
+}
+
+div#veichles h2 {
+    font-size: 14px;
+    margin-left: 35px;
+    margin-top: 3px;
+    color: rgb(0, 143, 12);
+}
+
+
+/* LISTAAAAAAAAAAAAAS */
+
+div#containerPainelDor {
+    z-index: 1;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: -60px;
+}
+
+div#containerPainelDor ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 200px;
+}
+
+/* Moradores */
+
+div#containerPainelDor ul ul#moradores {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap:  10px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: rgb(194, 194, 194);
+    height: 350px;
+    overflow: auto;
+}
+
+div#containerPainelDor ul ul#moradores li{
+    border-block-end: 2px solid #eee;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+div#containerPainelDor ul ul#moradores li h1{
+    font-size: 20px;
+}
+
+div#containerPainelDor ul ul#moradores li h2{
+    font-size: 13px;
+    color: gray;
+    margin-top: 3px;
+    margin-block-end: 8px;
+}
+
+div#containerPainelDor ul ul#moradores li button{
+    margin-right: 4px;
+    width: auto;
+    background: rgb(219, 219, 219);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border-radius: 4px;
+    padding: 3px 8px 3px 8px;
+    color: rgb(87, 87, 87);
+    cursor: pointer;
+}
+
+
+
+/* casas*/
+
+div#containerPainelDor ul ul#casas {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: rgb(194, 194, 194);
+    padding: 10px 10px 10px 10px;
+    height: 350px;
+    overflow: auto;
+}
+
+div#containerPainelDor ul ul#casas li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px;
+    border-block-end: 4px solid rgb(223, 223, 223, 0.3);
+    padding: 3px;
+}
+
+div#containerPainelDor ul ul#casas li h1{
+    font-size: 16px;
+    text-align: center;
+    margin-block-end: 3px;
+}
+
+div#containerPainelDor ul ul#casas li button{
+    margin-block-end: 4px;
+    width: auto;
+    background: rgb(219, 219, 219);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border-radius: 4px;
+    padding: 3px 8px 3px 8px;
+    color: rgb(87, 87, 87);
+    cursor: pointer;
+}
+
+
+
+
+/*funcionarios*/
+
+div#containerPainelDor ul ul#funcionarios {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap:  10px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: rgb(194, 194, 194);
+    height: 350px;
+    overflow: auto;
+}
+
+div#containerPainelDor ul ul#funcionarios li{
+    border-block-end: 2px solid #eee;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+div#containerPainelDor ul ul#funcionarios li h1{
+    font-size: 20px;
+}
+
+div#containerPainelDor ul ul#funcionarios li h2{
+    font-size: 13px;
+    color: gray;
+    margin-top: 3px;
+    margin-block-end: 8px;
+}
+
+div#containerPainelDor ul ul#funcionarios li button{
+    margin-right: 4px;
+    width: auto;
+    background: rgb(219, 219, 219);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border-radius: 4px;
+    padding: 3px 8px 3px 8px;
+    color: rgb(87, 87, 87);
+    cursor: pointer;
+}
+
+
+
+div#buttonsCreateDor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 200px;
+    margin-top: 7px;
+    justify-items: center;
+}
+
+div#buttonsCreateDor button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 4px #eee;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 16px;
+    background: rgb(35, 67, 173);
+    transition: 0.3s;    
+}
+
+div#buttonsCreateDor button:hover{
+    cursor: pointer;
+    background: rgb(11, 11, 73);
+}
+
+div#buttonsCasasDor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+input#findOwner {
+    margin-left: 10px;
+    width: 200px;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    padding: 13px;
+    padding-top: 11px;
+    padding-block-end: 8px;
+    color: rgb(107, 107, 107);
+}
