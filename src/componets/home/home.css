@@ -14,6 +14,15 @@ div#homeMain {
     align-items: center;
 }
 
+div#homeMain a#lerantes {
+    position: absolute;
+    margin-top: -100px;
+    background: red;
+    color: white;
+    margin-left: -1px;
+    font-size: 22px;
+}
+
 div#homeMain h1#login {
     color: #353535;
     font-size: 32px;

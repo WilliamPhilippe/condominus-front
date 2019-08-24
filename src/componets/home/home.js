@@ -28,6 +28,7 @@ const home = ({history}) => {
             <button id="owner" onClick={toOwnerAccess}>Morador</button>
             <button id="doorman" onClick={toDoormanAccess}>Porteiro</button>
         </div>
+        <a id="lerantes" href="https://github.com/WilliamPhilippe/Condominus">LER ANTES DE CORRIGIR</a>
     
     </div>
     );
